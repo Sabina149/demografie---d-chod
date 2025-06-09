@@ -24,14 +24,18 @@ header{
     justify-content: center;
 }
 
-.karta{
-    background-color: rgba(14, 216, 216, 0.938);
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(rgb(153, 105, 105), rgb(162, 179, 162), rgb(131, 131, 252), alpha, pink);
-    padding: 20px;
-    width: 300px;
-    transition: transform 0.2s;
-}
+
+    .karta {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        width: 200px;
+        min-height: 200px;
+        padding: 15px;
+        box-shadow: 0 2px 5px rgb(173, 53, 53);
+        transition: background-color 0.3s ease;
+      }
+
 
 .karta:hover{
     transform: scale(1.03)
